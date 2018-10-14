@@ -1,0 +1,157 @@
+#top_page {
+	height: 4.375em;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #bfbfbf;
+	border-top-left-radius: 0.6250em;
+	border-top-right-radius: 0.6250em;
+	background-color: white;
+	padding: 1px 2px 0 2px;
+}
+
+#white_circle {
+	width: 1.1250em;
+	height: 1.1250em;
+	border: 1px solid #b3b3b3;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 0.4375em;
+	margin-top: 0.9375em;
+	margin-left: 0.9375em;
+	box-sizing: border-box;
+}
+
+#content {
+	width: 100%;
+	background-image: url(images/desk.jpg);
+	height: 50em;
+	border: 1px solid #bfbfbf;
+    box-sizing: border-box;
+}
+
+header {
+	background-color: lightblue;
+	width: 50%;
+	height: 12.5em;
+	margin:0 auto;
+	padding: 3.125em;
+	box-sizing: border-box;
+}
+
+.html_title {
+	font-size: 4.375em;
+	display: block;
+}
+
+.subtitle {
+	font-size: 1.3750em;
+}
+
+#main_page {
+	background-color: white;
+	opacity: 0.75;
+	width: 50%;
+	height: 75%;
+	margin: 0 auto;
+	padding: 1.875em;
+	box-sizing: border-box;
+}
+
+#email_field {
+	background-color: #e6e6e6;
+	width: 90%;
+	height: 10.625em;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 1.2500em;
+}
+
+.email {
+	display: block;
+	font-size: 1.1250em;
+	font-weight: bold;
+	padding: 0.6250em;
+	margin-left: 0.6250em;
+}
+
+[type="email"] {
+	width: 23.125em;
+	height: 1.5625em;
+	margin: 0.6250em 1.2500em;
+	display: block;
+}
+
+.email_text {
+	padding: 1.2500em;
+	color: grey;
+}
+
+[value="hello@conta|"] {
+	color: black;
+	font-size: 1.1250em;
+	padding-left: 0.6250em;
+}
+
+#name_field {
+margin: 1.2500em;
+}
+
+[for="username"] {
+	font-size: 1.1250em;
+	margin-left: 3.75em;
+	font-weight: bold;
+}
+
+[type="text"] {
+	width: 11.0625em;
+	height: 1.5625em;
+	margin: 0.6250em -3.125em 0.3125em 3.75em;
+}
+
+[placeholder="First"],
+[placeholder="Last"] {
+	font-size: 18px;
+	padding-left: 10px;
+ }
+
+[for="newsletter"] {
+	font-size: 1.1250em;
+	margin-left: 5em;
+	font-weight: bold;
+}
+
+.radio_button {
+	margin-top: 0.6250em;
+	margin-left: 5.3em;
+}
+
+[type="radio"] {
+	margin: 0.3125em;
+}
+
+.submit {
+	margin-top: 1.875em;
+	margin-left: 0.3126em;
+}
+
+hr { 
+    display: block;
+    opacity: 0.3;
+    margin-bottom: 1.875em;
+    color: #f2f2f2;
+}
+
+[type="submit"] {
+	background-color: lightblue;
+	color: black;
+	font-size: 1.1250em;
+	padding: 0.6250em 1.875em;
+	border: none;
+	border-radius: 0.3126em;
+	margin-left: 4.4em;
+}
+
+.submit_text, a {
+	color:  #33cc33;
+	margin: 0.3126em;
+}

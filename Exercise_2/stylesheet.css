@@ -1,0 +1,124 @@
+body {
+	background-color: #e0d48a;
+}
+
+/* top side page */
+
+div#top_page {
+	background-image: url('site_img/top.jpg');
+	margin: 15px 200px;
+	height: 200px;
+	text-align: right;
+	padding: 20px 140px;
+}
+
+p.site_title {
+	font-size: 50px;
+}
+
+p.site_slogan{
+	font-size: 28px;
+	margin-top: -30px;
+	margin-right: 108px;
+}
+
+div#content_page {
+	background-image: url('site_img/middle.jpg');
+	margin: -8px 200px;
+	height: 800px;
+	padding: 3px;
+}
+
+/*navigation bar */
+div#nav_bar {
+	margin: 10px;
+	border: 1px solid #a4a4a5;
+}
+
+ul.nav_list {
+	list-style: none;
+	padding: 20px;
+	width: 1419px;
+	background-color: #eae6cb;
+	margin: 0px;
+}
+
+li.nav_li {
+	display: inline;
+	padding: 80px;
+}
+
+a.no_decoration {
+	text-decoration: none;
+	color: #003380; 
+}
+
+/*left side of the page*/
+div#left_page {
+	float: left;
+	width: 15%
+}
+
+ul.main_menu_title,
+ul.block_title      {
+	font-size: 25px;
+	list-style-type: square;
+	list-style-position: inside;
+	background-color: #b0f22c;
+	padding: 10px;
+	margin: 10px;
+}
+
+ul.menu_items {
+	list-style-image: url('site_img/blackcube.jpg');
+}
+
+li.menu_li {
+	padding: 5px;
+}
+
+div.block_first_content,
+div.block_second_content {
+	margin: 20px;
+}
+
+/* right side of the page */
+div#right_side_page {
+	margin-left: 30px;
+	width: 98%;
+}
+
+div.gallery_content {
+	padding: 5px 30px;
+}
+
+div.columns_container {
+	display: table;
+	width: 85%;
+}
+
+div.subscription_content,
+div.services_content {
+	display: table-cell;
+	padding: 10px;
+}
+
+div.vertical_line {
+	display: table-cell;
+	border-left: 1px solid #cccccc;
+	height: 100px;
+}
+
+button.subscription_button,
+button.services_button {
+	background-color: #b0f22c;
+	padding: 10px;
+}
+
+div#bottom_side {
+	background-color: #b0f22c;
+	padding: 5px;
+	margin: 65px 10px;
+	text-align: center;
+}
+

@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	border: 3px solid #e6b800;
+}
+
+* { /*Selects all elements */
+	box-sizing: border-box;
+}
+
+
+/* header */
+header {
+	background-color: #ffbe1a;
+}
+
+h1 {
+	color: #ff8a04;
+	font-size: 100px;
+	padding: 40px 30px 0px 40px;
+	margin:0;
+}
+
+
+/* navigation bar */
+nav {
+	float: left;
+	width: 13%;
+	background-color: #feca50;
+	margin-top: -20px;
+}
+
+h2 {
+	font-size: 24px;
+	color: #b36b00;
+	padding: 50px 40px 5px 50px;
+	margin: 0;
+}
+
+ol li { /*Selects all <li> elements inside <ol> elements */
+	list-style: none;
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+img {
+	margin: 10px 40px 21px 30px;
+	width: 130px;
+	height: 130px;
+}
+
+
+/* content */
+content {
+	float: left;
+	width: 87%;
+	background-color: #fee250;
+	margin-top: -20px;
+}
+
+h3 {
+	font-size: 36px;
+	color: #b36b00;
+	padding: 5px 40px;
+}
+
+content > p { /*Selects all <p> elements where the parent is a <content> element */
+	padding-left: 40px;
+	padding-right: 30px;
+	font-family: serif;
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 25px;
+	color: #b36b00;
+	padding: 5px 40px;	
+}
+
+p:last-child { /*Selects every <p> element that is the last child of its parent */
+	margin-bottom: 80px;
+}
+
+section:after { /* Clear floats after the columns */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* footer */
+footer {
+	background-color: #ffbe1a;
+	height: 50px;
+	padding-top: 15px;
+	margin: 0;
+}
+
+ul {
+	list-style-type: disc;
+	position: absolute;
+}
+
+ul > li {
+	float: left;
+	margin: -32px 5px 20px 17px;
+	font-size: 14px;
+}
+
+li.first_li_footer {
+	margin-left: 198px;
+}
+
+[href=bottom_link] { /*Selects all elements with href="bottom_link" */
+	display: inline-block;
+	font-size: 15px;
+}
+
+[href=adams] {
+	display: inline;
+	position: relative;
+	margin: 20px 60px 20px 1px;
+	font-size: 15px;
+}
+
+footer p {
+	position: relative;
+	display: inline;
+	margin: 20px 1px 20px 45px;
+	font-size: 14px;
+}

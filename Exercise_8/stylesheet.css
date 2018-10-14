@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #0059b3;
+	margin: 0;	
+	height: 1250px;
+	border: 2px solid white;
+}
+
+
+/* HEADER */
+header {
+	background-color: black;
+	color: white;
+	width: 800px;
+	height: 180px;
+	margin-top: 150px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+
+span {
+	color: orange;
+}
+
+.header_text1 {
+	font-size: 60px;
+	padding-top: 1px;
+}
+
+.header_text2 {
+	margin-top: -70px;
+	font-size: 34px;
+}
+
+
+/* CONTENT */
+content {
+	overflow: auto;
+}
+
+/* navigation */
+nav {
+	float: left;
+	width: 18%;
+	padding-left: 25px;
+}
+
+li {
+	list-style-type: none;
+	padding: 30px;
+}
+
+[href=menu] {
+	font-size: 38px;
+}
+
+[href=home] {
+	background-color: #000066;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 35px;
+}
+article {
+	float: left;
+	width: 81%;
+	background-color: white;
+	margin-top: 50px;
+	padding: 10px 10px 10px 30px;
+}
+
+p.welcome_title {
+	font-size: 30px;
+	color: #0040ff;
+	margin-top: 10px;
+}
+
+p.lorem_title {
+	font-size: 30px;
+	margin-left: -40px;
+}
+
+div.last_paragraphs {
+	color: #0040ff;
+	padding-left: 40px;
+}
+
+strong {
+	color: blue;
+}

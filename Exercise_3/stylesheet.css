@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* top page */
+div#top_page {
+	background-color: #a9c056;
+	padding: 20px;
+}
+
+p.page_title {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+/* menu */
+div#menu {
+	float: left;
+	width: 16%;
+}
+
+ul.menu_list {
+	background-color: #4d5258;
+	list-style-type: none;
+	width: 200px;
+	height: 400px;
+	padding: 0;
+	margin: 70px;
+}
+
+li {
+	font-size: 20px;
+	border:1px solid #4d4d4d;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 20px;
+}
+
+li a.active {
+	background-color: #44474c;
+}
+
+/* content */
+div#content {
+	float: left;
+	width: 70%;
+	margin: 55px 10px 5px 1px;
+}
+p.basic_title {
+	margin-left: 5px;
+	font-size: 14px;
+}
+
+div.basics_option {
+	width: 1500px;
+}
+
+div.basics_question {
+	font-size: 25px;
+	color: #a9c056;
+	background-color: white;
+	padding: 30px;
+	margin: 5px;
+}
+
+p.sign_up_answer {
+	color: black;
+	font-size: 18px;
+}
+
+p.mobile_title {
+	margin-top: 50px;
+	font-size: 14px;
+}
