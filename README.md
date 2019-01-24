@@ -16,5 +16,5 @@ web page_7 >>>  https://petronelai.github.io/Homework_CSS_TheInformalSchool/Exer
 
 web page_8 >>>  https://petronelai.github.io/Homework_CSS_TheInformalSchool/Exercise_8/index.html
 
-web page_9 >>>  https://petronelai.github.io/Homework_CSS_TheInformalSchool/Exercise_9/index.html
+web page_9 >>>  https://petronelai.github.io/Homework_CSS_TheInformalSchool/exercise_9/index.html
 
